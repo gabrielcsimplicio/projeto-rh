@@ -363,7 +363,6 @@ li a:hover {
     margin: auto;
     display: block;
     width: 380px;
-    font-size: 25px;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -516,7 +515,7 @@ li a:hover {
         margin-top: 20px;
     }
     #experiencias h2 {
-        font-size: 4.8em;
+        font-size: 4em;
         text-align: center;
         margin: 0px;
         padding: 20px 0px 30px 0px;
@@ -525,6 +524,10 @@ li a:hover {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 0px;
+        
+    }
+    #empregos p {
+        text-align: center;
     }
     .quadro-empregos {
         margin-bottom: 50px;
@@ -543,5 +546,9 @@ li a:hover {
         border-radius: 0px;
         margin: 0px;
         padding: 50px 0px 50px 0px;
+    }
+    #wpp a {
+        font-size: 25px;
+        padding: 8px 3px;
     }
 }
