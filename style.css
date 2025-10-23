@@ -516,7 +516,7 @@ li a:hover {
         margin-top: 20px;
     }
     #experiencias h2 {
-        font-size: 4.8em;
+        font-size: 4em;
         text-align: center;
         margin: 0px;
         padding: 20px 0px 30px 0px;
@@ -543,5 +543,11 @@ li a:hover {
         border-radius: 0px;
         margin: 0px;
         padding: 50px 0px 50px 0px;
+    }
+    #wpp a {
+        padding: 8px 5px;
+    }
+    #wpp a:hover {
+        padding: 10px 7px;
     }
 }
