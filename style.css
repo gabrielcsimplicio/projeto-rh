@@ -71,22 +71,6 @@ body {
     box-shadow: inset 10px 0 15px -10px rgba(0, 0, 0, 0.925),
               inset -10px 0 15px -10px rgba(0, 0, 0, 0.884);
 }
-.hamburger {
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid white;
-    cursor: pointer;
-    padding: 0px;
-}
-.hamburger::before, .hamburger::after {
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin-top: 5px;
-}
 li, a {
     text-decoration: none;
     color: white;
